@@ -10,11 +10,9 @@ const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 
 const router = (
-  <div>
-    <Provider store={createStoreWithMiddleware(reducers)}>
-      <App />
-    </Provider>
-  </div>
+  <Provider store={createStoreWithMiddleware(reducers)}>
+    <App />
+  </Provider>
 )
 
 render(router, document.getElementById('container'));
