@@ -4,7 +4,6 @@ var webpack = require('webpack');
 module.exports = {
   devtool: 'source-map',
   entry: [
-    
     './src/GNO'
   ],
   output: {
