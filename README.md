@@ -5,9 +5,9 @@ A website to find a people to play with
 
 **Open source** part will include:
 
-> - Search engine
-> - User interface(ui)
-> - Some server side things like authentication, users, games list and comments
+- Search engine
+- User interface(ui)
+- Some server side things like authentication, users, games list and comments
 
 
 
